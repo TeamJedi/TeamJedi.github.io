@@ -2,7 +2,3 @@
 layout: index
 ---
 
----
-layout: page
----
-
