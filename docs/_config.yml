@@ -1,0 +1,5 @@
+markdown: redcarpet
+path: https://ianblenke.github.io/jedi
+#markdown: kramdown
+#kramdown:
+#   auto_ids: true
