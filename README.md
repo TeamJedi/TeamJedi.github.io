@@ -10,5 +10,6 @@ The [challenge](challenge/) folder contains the current [OpenWerx](http://www.so
 
 Ian Blenke
 Begian Chuck
+Jeremy White
 ... still forming ...
 
