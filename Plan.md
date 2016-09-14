@@ -27,11 +27,13 @@ Layer 2/3
         avahi (mdns zeroconf)
 
 Layer 4/5
+
     Neighbor Discovery and Crypto
         Peergos w/ipfs.io: https://github.com/Peergos/Peergos/blob/master/README.md
             - Parameters: public/private keypair, unique random namespace
 
 Layer 7
+
     Android
         Web (Cordova)
             - Map with self and neighbor location
