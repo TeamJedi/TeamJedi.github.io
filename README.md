@@ -8,10 +8,10 @@ The [challenge](challenge/) folder contains the current [OpenWerx](http://www.so
 
 ## Team
 
-Ian Blenke
-Begian Chuck
-Jeremy White
-... still forming ...
+- Ian Blenke
+- Begian Chuck
+- Jeremy White
+- ... you? ... (still forming)
 
 ## Plan
 
