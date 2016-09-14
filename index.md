@@ -1,3 +1,8 @@
+---
+layout: index
+---
+
+
 # jedi
 
 A modern interpretation of the Jed set.

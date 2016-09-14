@@ -44,6 +44,12 @@ Layer 7
 
 ## Hardware
 
+There are two potential ways to approach this:
+
+1. Root an Android phone and run the SDR directly.
+
+2. Use an embedded controller like a raspberry pi 3 to make a Jed set "base station" using on-board wifi or bluetooth tethering.
+
 For full-duplex SDR, the two primary contenders are:
 
  - Nuand BladeRF: https://github.com/Nuand/bladeRF
