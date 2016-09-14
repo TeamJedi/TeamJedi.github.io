@@ -44,11 +44,14 @@ Layer 7
 
 ## Hardware
 
-There are two potential ways to approach this:
+For a SDR capable "base-station", there are two potential ways to approach this:
 
 1. Root an Android phone and run the SDR directly.
 
 2. Use an embedded controller like a raspberry pi 3 to make a Jed set "base station" using on-board wifi or bluetooth tethering.
+
+An rtlsdr isn’t going to do 2.4ghz sniffing, and is receive only.
+A hackrf is half-duplex and can only transmit _or_ receive at any given time.
 
 For full-duplex SDR, the two primary contenders are:
 
