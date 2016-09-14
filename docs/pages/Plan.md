@@ -37,6 +37,9 @@ Layer 7
     Android
         Web (Cordova)
             - Map with self and neighbor location
+                - Cesium.js - https://cesiumjs.org/
+                  - https://cesiumjs.org/demos/LiveTrack24.html
+                  - https://cesiumjs.org/demos/TacMap.html
                 -  https://github.com/digidem/osm-p2p-db
             - WebRTC
                 - Communicate with neighbors using text, voice, video
