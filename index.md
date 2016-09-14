@@ -1,3 +1,3 @@
 # jedi
 
-[https://ianblenke.github.io/jedi](https://ianblenke.github.io/jedi)
+[https://ian.blenke.com/jedi](https://ianblenke.com/jedi)
