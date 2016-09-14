@@ -1,3 +1,8 @@
+---
+layout: index
+---
+
+
 # Plan
 
 The goal of this is to generate an OpenSource equivalent to something like the [BearTooth(http://beartooth.com)
