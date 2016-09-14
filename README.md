@@ -13,3 +13,7 @@ Begian Chuck
 Jeremy White
 ... still forming ...
 
+## Plan
+
+We have a [Plan](Plan.md)
+
