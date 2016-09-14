@@ -1,13 +1,3 @@
----
-layout: index
----
-
-
----
-layout: index
----
-
-
 # jedi
 
 A modern interpretation of the Jed set.
@@ -21,6 +11,7 @@ The [challenge](challenge/) folder contains the current [OpenWerx](http://www.so
 - Ian Blenke
 - Begian Chuck
 - Jeremy White
+- Mike Turtora
 - ... you? ... (still forming)
 
 ## Plan
