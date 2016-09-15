@@ -1,3 +1,6 @@
 [submodule "submodules/gr-ieee802-11"]
 	path = submodules/gr-ieee802-11
 	url = https://github.com/bastibl/gr-ieee802-11
+[submodule "submodules/gr-osmosdr"]
+	path = submodules/gr-osmosdr
+	url = https://github.com/osmocom/gr-osmosdr/
