@@ -40,6 +40,9 @@ Layer 7
                 Free
                 - OpenStreetMaps
                   - https://github.com/digidem/osm-p2p-db
+                  - http://trevorpowell.com/2015/02/20/mapbox-gl-js-with-offline-vector-tiles-on-cordova/
+                    - https://github.com/trevorpowell/mapbox-gl-js-cordova-offline
+                    - https://github.com/trevorpowell/mapbox-gl-js-cordova-offline-example
                   - https://github.com/afsuarez/mapsforge-cordova-plugin
                   - https://github.com/robotnic/mapsforge-cordova-plugin-example
                 Commercial
@@ -47,6 +50,7 @@ Layer 7
                   - https://cesiumjs.org/demos/LiveTrack24.html
                   - https://cesiumjs.org/demos/TacMap.html
 		- MapBox - https://github.com/Telerik-Verified-Plugins/Mapbox
+                  - https://github.com/systemed/tilemaker
             - WebRTC
                 - Communicate with neighbors using text, voice, video
                 - https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview
