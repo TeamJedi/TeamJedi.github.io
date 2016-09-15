@@ -36,11 +36,17 @@ Layer 7
 
     Android
         Web (Cordova)
-            - Map with self and neighbor location
-                - Cesium.js - https://cesiumjs.org/
+            - Offline Map with self and neighbor location
+                Free
+                - OpenStreetMaps
+                  - https://github.com/digidem/osm-p2p-db
+                  - https://github.com/afsuarez/mapsforge-cordova-plugin
+                  - https://github.com/robotnic/mapsforge-cordova-plugin-example
+                Commercial
+                - Cesium.js - https://cesiumjs.org/ (Bing!)
                   - https://cesiumjs.org/demos/LiveTrack24.html
                   - https://cesiumjs.org/demos/TacMap.html
-                -  https://github.com/digidem/osm-p2p-db
+		- MapBox - https://github.com/Telerik-Verified-Plugins/Mapbox
             - WebRTC
                 - Communicate with neighbors using text, voice, video
                 - https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview
