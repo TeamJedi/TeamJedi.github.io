@@ -12,7 +12,14 @@
         },
         "cordova-plugin-crosswalk-webview": {
             "PACKAGE_NAME": "com.blenke.jedi.android"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.blenke.jedi.android"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.blenke.jedi.android"
+        }
+    }
 }
