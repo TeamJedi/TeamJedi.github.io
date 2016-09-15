@@ -51,6 +51,7 @@ Layer 7
                   - https://cesiumjs.org/demos/TacMap.html
 		- MapBox - https://github.com/Telerik-Verified-Plugins/Mapbox
                   - https://github.com/systemed/tilemaker
+                  - https://github.com/klokantech/osm-vector-cordova
             - WebRTC
                 - Communicate with neighbors using text, voice, video
                 - https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview
