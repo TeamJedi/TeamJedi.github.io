@@ -35,7 +35,26 @@ var app = {
     onDeviceReady: function() {
         console.log('onDeviceReady Begin');
         app.receivedEvent('deviceready');
-	var viewer = new Cesium.Viewer('cesiumContainer');
+        var viewer = new Cesium.Viewer('cesiumContainer');
+        var options = { timeout: 10000, enableHighAccuracy: true, maximumAge: 10000 };
+        var watchID = navigator.geolocation.watchPosition(
+			function(position) {
+                          // GeoLocationSuccess Event Handler
+                          console.log('Latitude: '          + position.coords.latitude          + '\n' +
+                                      'Longitude: '         + position.coords.longitude         + '\n' +
+                                      'Altitude: '          + position.coords.altitude          + '\n' +
+                                      'Accuracy: '          + position.coords.accuracy          + '\n' +
+                                      'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
+                                      'Heading: '           + position.coords.heading           + '\n' +
+                                      'Speed: '             + position.coords.speed             + '\n' +
+                                      'Timestamp: '         + position.timestamp                + '\n');
+                        },
+                        function() {
+                          // GeoLocationError Event Handler
+                          console.log('code: '    + error.code    + '\n' +
+                                      'message: ' + error.message + '\n');
+                        },
+			options);
         console.log('onDeviceReady End');
     },
     // Update DOM on a Received Event
