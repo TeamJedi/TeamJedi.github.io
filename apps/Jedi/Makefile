@@ -25,3 +25,5 @@ clean:
 	rm -fr platforms/android/build
 	rm -fr platforms/browser/build
 
+try:
+	cordova emulate browser
