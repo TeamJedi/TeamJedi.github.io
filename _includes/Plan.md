@@ -21,11 +21,17 @@ Layer 2/3
     Meshed VPN
         tinc
             - tinc 1.1 Parameters: Ed25519 crypto public/private keypair, Neighbors
-    MANET / OLSR
+    MANET / OLSR / MDP
          - ProjectSPAN:
            - https://www.mitre.org/research/technology-transfer/open-source-software/smartphone-ad-hoc-networking-span
            - https://github.com/ProjectSPAN
            - https://www.mitre.org/sites/default/files/pdf/12_2943.pdf
+         - ServalProject:
+           - http://www.servalproject.org/
+           - https://github.com/servalproject
+           - https://github.com/servalproject/ServalMaps
+           - https://github.com/servalproject/lbard
+           - http://developer.servalproject.org/dokuwiki/doku.php?id=content:tech:rhizome
     mdns Neighbor Discovery?
         avahi (mdns zeroconf)
 
