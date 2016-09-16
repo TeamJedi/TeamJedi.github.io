@@ -22,7 +22,10 @@ Layer 2/3
         tinc
             - tinc 1.1 Parameters: Ed25519 crypto public/private keypair, Neighbors
     MANET / OLSR
-         - ProjectSPAN: https://github.com/ProjectSPAN
+         - ProjectSPAN:
+           - https://www.mitre.org/research/technology-transfer/open-source-software/smartphone-ad-hoc-networking-span
+           - https://github.com/ProjectSPAN
+           - https://www.mitre.org/sites/default/files/pdf/12_2943.pdf
     mdns Neighbor Discovery?
         avahi (mdns zeroconf)
 
