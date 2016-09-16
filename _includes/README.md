@@ -4,7 +4,7 @@ A modern interpretation of the Jed set.
 
 ## Challenge
 
-The [challenge](challenge/) folder contains the current [OpenWerx](http://www.sofwerx.org/event/openwerx_event/) challenge presentation.
+The [challenge](https://github.com/TeamJedi/TeamJedi.github.io/tree/master/challenge) folder contains the current [OpenWerx](http://www.sofwerx.org/event/openwerx_event/) challenge presentation.
 
 ## Team
 
@@ -16,5 +16,5 @@ The [challenge](challenge/) folder contains the current [OpenWerx](http://www.so
 
 ## Plan
 
-We have a [Plan](Plan.md)
+We have a [Plan](https://teamjedi.github.io/Plan.html) ([source](https://github.com/TeamJedi/TeamJedi.github.io/blob/master/_includes/Plan.md)])
 
