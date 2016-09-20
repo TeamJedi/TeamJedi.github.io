@@ -81,6 +81,27 @@ For full-duplex SDR, the two primary contenders are:
  - Nuand BladeRF: https://github.com/Nuand/bladeRF
  - LimeSDR: http://www.limemicro.com/
 
+Alternatively, two half-duplex devices would suffice.
+
+For half-duplex, he did look at the TI cc1111 based devices:
+
+  - http://www.ti.com/lit/ds/symlink/cc1110-cc1111.pdf
+
+Such as:
+
+  - https://github.com/greatscottgadgets/yardstick/wiki/YARD-Stick-One
+  - http://gollumrf.com/
+  - http://int3.cc/collections/usb/products/rfcat
+
+Those do top out at 1Ghz, however.
+
+Other promising TI chipsets that also support 2.4Ghz are the CC1310 and CC1350:
+
+  - http://www.ti.com/tool/launchxl-cc1310
+  - http://www.ti.com/tool/launchxl-cc1350
+  - http://processors.wiki.ti.com/index.php/CC13xx_CC26xx_Tools_Overview#CC1350_Launchpad
+  - http://dev.ti.com/tirex/content/tirtos_cc13xx_cc26xx_2_20_00_06/resources/cc1350LaunchPad/project0/images/cc1350_launchpad_explained.PNG
+
 Of these, LimeSDR looks like it will not ship in time (end of this month).
 
 I have two Nuand BladeRF devices for developing and testing SDR. One with the amplifier, one without.
