@@ -11,9 +11,40 @@ Layer 1/2
         - Wifi: https://github.com/bastibl/gr-ieee802-11
         - FHSS/DSSS: https://github.com/DaulPavid/gr-spread
       - Location:
-        - GPS: 
+        - http://gnuradio.org/redmine/projects/gnuradio/wiki/GlobalPositioningSystem
+        - https://sourceforge.net/projects/gnss-sdr/
+        - GNSS:
+         - GPS
+           - https://en.wikipedia.org/wiki/Global_Positioning_System
+           - http://gps.psas.pdx.edu/OpenGnssProjects/
+           - https://github.com/osqzss/gps-sdr-sim
+           - https://media.defcon.org/DEF%20CON%2023/DEF%20CON%2023%20presentations/DEFCON-23-Lin-Huang-Qing-Yang-GPS-Spoofing.pdf
+         - GLONASS
+           - https://en.wikipedia.org/wiki/GLONASS
+         - Galileo
+           - https://en.wikipedia.org/wiki/Galileo_(satellite_navigation)
+           - https://docs.google.com/document/d/1SZ3m1K7Qf9GsZQGEF7VSOEewBDCjbylCClw9rSXwG7Y/edit
+           - https://www.youtube.com/watch?v=ajh2_xBCZSM
+         - IRNSS
+          - https://en.wikipedia.org/wiki/Indian_Regional_Navigation_Satellite_System
+         - Compass/Beidou
+           - https://en.wikipedia.org/wiki/BeiDou_Navigation_Satellite_System#BeiDou-2
+        - GDPS
+          - https://github.com/cruvolo/gr-dgps
+        - SBAS - Satellite Based Augmentation Services
+          - Current
+            - WAAS
+              - US - DOT/FAA - Works with GPS
+                -  http://www.faa.gov/ASD/international/GUIDANCE_MATL/2892b_c1.pdf
+            - EGNOS - Europe - Works with Galileo 
+            - MSAS - Japan
+          -  Under development
+            - GAGAN - India
+            - SDCM - Russia
+            - SNAS - China
+        - LORAN-C (decomissioned)
+          - http://phk.freebsd.dk/loran-c/
         - Plane location: Mode-S/ADS-B radio
-        - Other?
 
 Layer 2/3
 
