@@ -9,7 +9,7 @@ Layer 1/2
     SDR
       - CDMA Data:
         - Wifi: https://github.com/bastibl/gr-ieee802-11
-	- FHSS/DSSS: https://github.com/DaulPavid/gr-spread
+        - FHSS/DSSS: https://github.com/DaulPavid/gr-spread
       - Location:
         - GPS: 
         - Plane location: Mode-S/ADS-B radio
