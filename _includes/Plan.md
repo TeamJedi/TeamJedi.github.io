@@ -24,10 +24,18 @@ Layer 2/3
     MANET / OLSR / MDP
          - OLSR
            - http://www.olsrd.org
+           - http://www.olsr.org/?q=olsr_on_android
+           - https://github.com/TeamJedi/termux-packages/tree/master/packages/olsrd
          - ProjectSPAN:
            - https://www.mitre.org/research/technology-transfer/open-source-software/smartphone-ad-hoc-networking-span
-           - https://github.com/ProjectSPAN
+           - https://github.com/TeamJedi/ProjectSPAN
+           - https://github.com/TeamJedi/SPAN
            - https://www.mitre.org/sites/default/files/pdf/12_2943.pdf
+           - Defcon 20 - Off-Grid Communications with Android: Meshing the Mobile World
+             - https://www.youtube.com/watch?v=sTpJuWcCsR0
+             - https://github.com/TeamJedi/SPAN/tree/master/docs/DefCon%2020
+           - DerbyCon - SPAN Preso
+             -  https://github.com/TeamJedi/SPAN/blob/master/docs/DerbyCon%202/DerbyCon-SPAN_Preso.pdf
          - ServalProject:
            - http://www.servalproject.org/
            - https://github.com/servalproject
