@@ -22,6 +22,8 @@ Layer 2/3
         tinc
             - tinc 1.1 Parameters: Ed25519 crypto public/private keypair, Neighbors
     MANET / OLSR / MDP
+         - OLSR
+           - http://www.olsrd.org
          - ProjectSPAN:
            - https://www.mitre.org/research/technology-transfer/open-source-software/smartphone-ad-hoc-networking-span
            - https://github.com/ProjectSPAN
@@ -32,6 +34,11 @@ Layer 2/3
            - https://github.com/servalproject/ServalMaps
            - https://github.com/servalproject/lbard
            - http://developer.servalproject.org/dokuwiki/doku.php?id=content:tech:rhizome
+         - Project Byzantium
+           - http://project-byzantium.org/
+         - Freifunk
+           - https://berlin.freifunk.net/
+
     mdns Neighbor Discovery?
         avahi (mdns zeroconf)
 
