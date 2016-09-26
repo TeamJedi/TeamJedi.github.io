@@ -77,6 +77,8 @@ Layer 2/3
            - http://project-byzantium.org/
          - Freifunk
            - https://berlin.freifunk.net/
+         - Battlemesh
+           - http://www.battlemesh.org/
 
     mdns Neighbor Discovery?
         avahi (mdns zeroconf)
