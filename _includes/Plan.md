@@ -73,12 +73,23 @@ Layer 2/3
            - https://github.com/servalproject/ServalMaps
            - https://github.com/servalproject/lbard
            - http://developer.servalproject.org/dokuwiki/doku.php?id=content:tech:rhizome
+         - B.A.T.M.A.N / BMX6 / BMX7
+           - http://www.bmx6.net/
          - Project Byzantium
            - http://project-byzantium.org/
          - Freifunk
            - https://berlin.freifunk.net/
+         - Babel
+           - https://www.irif.fr/~jch//software/babel/
          - Battlemesh
            - http://www.battlemesh.org/
+         - "802.11s"
+           - https://en.wikipedia.org/wiki/IEEE_802.11s
+           - https://github.com/o11s/open80211s/wiki/HOWTO
+           - https://wireless.wiki.kernel.org/en/developers/documentation/ieee80211/802.11s
+           - https://wiki.openwrt.org/doc/howto/mesh.80211s
+           - https://wiki.freebsd.org/WifiMesh
+    
 
     mdns Neighbor Discovery?
         avahi (mdns zeroconf)
