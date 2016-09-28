@@ -1,12 +1,20 @@
 # Plan
 
-The goal of this is to generate an OpenSource equivalent to something like the [BearTooth(http://beartooth.com)
+The goal of this is to generate an OpenSource equivalent to something like the [BearTooth(http://beartooth.com), or the [Gotenna](http://www.gotenna.com/).
 
 ## OSI Layers
 
 Layer 1/2
 
     SDR
+      - Hardware
+        - Full Duplex
+          - BladeRF
+          - LimeSDR
+        - Half Duplex
+          - YARD Stick One
+            - TI CC1111 - 300-348 MHz, 391-464 MHz and 782-928 MHz, in modulations: ASK, OOK, GFSK, 2-FSK, 4-FSK and MSK.
+
       - CDMA Data:
         - Wifi: https://github.com/bastibl/gr-ieee802-11
         - FHSS/DSSS: https://github.com/DaulPavid/gr-spread
@@ -83,13 +91,24 @@ Layer 2/3
            - https://www.irif.fr/~jch//software/babel/
          - Battlemesh
            - http://www.battlemesh.org/
+         - Libertas' MESH (OLPC) - Marvell 88W8388 USB
+           - http://linuxwireless.org/en/users/Drivers/libertas/
+           - http://www.free60.org/wiki/Wifi_Adapter
          - "802.11s"
            - https://en.wikipedia.org/wiki/IEEE_802.11s
            - https://github.com/o11s/open80211s/wiki/HOWTO
            - https://wireless.wiki.kernel.org/en/developers/documentation/ieee80211/802.11s
            - https://wiki.openwrt.org/doc/howto/mesh.80211s
            - https://wiki.freebsd.org/WifiMesh
-    
+           - http://wiki.laptop.org/go/Mesh_Network_Details - OLPC
+         - "802.11ah" - HaLow - Meshed 900MHz wifi for IoT
+           - 902-928 MHz in the US (26 MHz bandwidth)
+           - 863-868 MHz in Europe (5 MHz bandwidth)
+           - 916.5-927.5 MHz in Japan (11 MHz bandwidth)
+         - "802.11af" - TV Spectrum - Meshed 54MHz - 790MHz in "whitespaces"
+           - https://github.com/NELOUNI/gr-ieee-802-11af
+         - Native Android IBSS adhoc on cyanogenmod 10/11/12:
+           - http://www.thinktube.com/android-tech/46-android-wifi-ibss
 
     mdns Neighbor Discovery?
         avahi (mdns zeroconf)
