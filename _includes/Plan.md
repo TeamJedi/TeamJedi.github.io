@@ -1,58 +1,57 @@
 # Plan
 
-The goal of this is to generate an OpenSource equivalent to something like the [BearTooth(http://beartooth.com), or the [Gotenna](http://www.gotenna.com/).
+The goal of this is to generate an OpenSource equivalent to something like the [BearTooth](http://beartooth.com), or the [Gotenna](http://www.gotenna.com/).
 
 ## OSI Layers
 
 Layer 1/2
 
-    SDR
-      - Hardware
-        - Full Duplex
-          - BladeRF
-          - LimeSDR
-        - Half Duplex
-          - YARD Stick One
-            - TI CC1111 - 300-348 MHz, 391-464 MHz and 782-928 MHz, in modulations: ASK, OOK, GFSK, 2-FSK, 4-FSK and MSK.
-
-      - CDMA Data:
-        - Wifi: https://github.com/bastibl/gr-ieee802-11
-        - FHSS/DSSS: https://github.com/DaulPavid/gr-spread
-      - Location:
-        - http://gnuradio.org/redmine/projects/gnuradio/wiki/GlobalPositioningSystem
-        - https://sourceforge.net/projects/gnss-sdr/
-        - GNSS:
-         - GPS
-           - https://en.wikipedia.org/wiki/Global_Positioning_System
-           - http://gps.psas.pdx.edu/OpenGnssProjects/
-           - https://github.com/osqzss/gps-sdr-sim
-           - https://media.defcon.org/DEF%20CON%2023/DEF%20CON%2023%20presentations/DEFCON-23-Lin-Huang-Qing-Yang-GPS-Spoofing.pdf
-         - GLONASS
-           - https://en.wikipedia.org/wiki/GLONASS
-         - Galileo
-           - https://en.wikipedia.org/wiki/Galileo_(satellite_navigation)
-           - https://docs.google.com/document/d/1SZ3m1K7Qf9GsZQGEF7VSOEewBDCjbylCClw9rSXwG7Y/edit
-           - https://www.youtube.com/watch?v=ajh2_xBCZSM
-         - IRNSS
-          - https://en.wikipedia.org/wiki/Indian_Regional_Navigation_Satellite_System
-         - Compass/Beidou
-           - https://en.wikipedia.org/wiki/BeiDou_Navigation_Satellite_System#BeiDou-2
-        - GDPS
-          - https://github.com/cruvolo/gr-dgps
-        - SBAS - Satellite Based Augmentation Services
-          - Current
-            - WAAS
-              - US - DOT/FAA - Works with GPS
-                -  http://www.faa.gov/ASD/international/GUIDANCE_MATL/2892b_c1.pdf
-            - EGNOS - Europe - Works with Galileo 
-            - MSAS - Japan
-          -  Under development
-            - GAGAN - India
-            - SDCM - Russia
-            - SNAS - China
-        - LORAN-C (decomissioned)
-          - http://phk.freebsd.dk/loran-c/
-        - Plane location: Mode-S/ADS-B radio
+* SDR
+  * Hardware
+    * Full Duplex
+      * BladeRF
+      * LimeSDR
+    * Half Duplex
+      * YARD Stick One
+      * TI CC1111 - 300-348 MHz, 391-464 MHz and 782-928 MHz, in modulations: ASK, OOK, GFSK, 2-FSK, 4-FSK and MSK.
+      * CDMA Data:
+        * Wifi: https://github.com/bastibl/gr-ieee802-11
+        * FHSS/DSSS: https://github.com/DaulPavid/gr-spread
+  * Location:
+    * http://gnuradio.org/redmine/projects/gnuradio/wiki/GlobalPositioningSystem
+    * https://sourceforge.net/projects/gnss-sdr/
+    * GNSS:
+     * GPS
+       * https://en.wikipedia.org/wiki/Global_Positioning_System 
+       * http://gps.psas.pdx.edu/OpenGnssProjects/
+       * https://github.com/osqzss/gps-sdr-sim
+       * https://media.defcon.org/DEF%20CON%2023/DEF%20CON%2023%20presentations/DEFCON-23-Lin-Huang-Qing-Yang-GPS-Spoofing.pdf
+     * GLONASS
+       * https://en.wikipedia.org/wiki/GLONASS
+     * Galileo
+       * https://en.wikipedia.org/wiki/Galileo_(satellite_navigation)
+       * https://docs.google.com/document/d/1SZ3m1K7Qf9GsZQGEF7VSOEewBDCjbylCClw9rSXwG7Y/edit
+       * https://www.youtube.com/watch?v=ajh2_xBCZSM
+     * IRNSS
+      * https://en.wikipedia.org/wiki/Indian_Regional_Navigation_Satellite_System
+     * Compass/Beidou
+       * https://en.wikipedia.org/wiki/BeiDou_Navigation_Satellite_System#BeiDou-2
+    * GDPS
+      * https://github.com/cruvolo/gr-dgps
+    * SBAS - Satellite Based Augmentation Services
+      * Current
+        * WAAS
+          * US - DOT/FAA - Works with GPS
+            *  http://www.faa.gov/ASD/international/GUIDANCE_MATL/2892b_c1.pdf
+        * EGNOS - Europe - Works with Galileo 
+        * MSAS - Japan
+      *  Under development
+        * GAGAN - India
+        * SDCM - Russia
+        * SNAS - China
+    * LORAN-C (decomissioned)
+      - http://phk.freebsd.dk/loran-c/
+    * Plane location: Mode-S/ADS-B radio
 
 Layer 2/3
 
