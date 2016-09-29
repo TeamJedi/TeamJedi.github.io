@@ -120,6 +120,8 @@ Layer 1/2
             * https://github.com/robotnic/mapsforge-cordova-plugin-example
           * EON Maps
             * https://github.com/pubnub/eon
+          * Leaflet Maps
+            *  https://github.com/perliedman/leaflet-realtime
           * Commercial
             * Cesium.js - https://cesiumjs.org/ (Bing!)
               * https://cesiumjs.org/demos/LiveTrack24.html
