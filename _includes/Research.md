@@ -118,6 +118,8 @@ Layer 1/2
             * https://github.com/trevorpowell/mapbox-gl-js-cordova-offline-example
             * https://github.com/afsuarez/mapsforge-cordova-plugin
             * https://github.com/robotnic/mapsforge-cordova-plugin-example
+          * EON Maps
+            * https://github.com/pubnub/eon
           * Commercial
             * Cesium.js - https://cesiumjs.org/ (Bing!)
               * https://cesiumjs.org/demos/LiveTrack24.html
