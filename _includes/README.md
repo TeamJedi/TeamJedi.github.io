@@ -9,6 +9,7 @@ The [challenge](https://github.com/TeamJedi/TeamJedi.github.io/tree/master/chall
 ## Team
 
 * Ian Blenke (@ianblenke)
+* Nathan Blenke (@nblenke)
 * Begian Chuck (@cbegian)
 * Jeremy White (@dudymas)
 * Mike Turtora (@mjturtora)
