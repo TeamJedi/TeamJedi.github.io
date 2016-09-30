@@ -8,11 +8,13 @@ The [challenge](https://github.com/TeamJedi/TeamJedi.github.io/tree/master/chall
 
 ## Team
 
-- Ian Blenke
-- Begian Chuck
-- Jeremy White
-- Mike Turtora
-- ... you? ... (still forming)
+* Ian Blenke (@ianblenke)
+* Begian Chuck (@cbegian)
+* Jeremy White (@dudymas)
+* Mike Turtora (@mjturtora)
+* Nung Bedell (@nungster)
+* Pierre Kircher (@PierreKircher)
+* ... you? ...
 
 ## Plan
 
