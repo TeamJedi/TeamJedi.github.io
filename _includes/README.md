@@ -19,8 +19,6 @@ The [challenge](https://github.com/TeamJedi/TeamJedi.github.io/tree/master/chall
 
 ## Plan
 
-We have a [Plan](https://teamjedi.github.io/Plan.html) ([source](https://github.com/TeamJedi/TeamJedi.github.io/blob/master/_includes/Plan.md)) based on [Research](https://teamjedi.github.io/Research.html) ([source](https://github.com/TeamJedi/TeamJedi.github.io/blob/master/_includes/Research.md)).
-
-
+We have a [Plan](https://teamjedi.github.io/Plan.html) ([source](https://github.com/TeamJedi/TeamJedi.github.io/blob/master/_includes/Plan.md)) based on [Research](https://teamjedi.github.io/Research.html) ([source](https://github.com/TeamJedi/TeamJedi.github.io/blob/master/_includes/Research.md)), and a [Presentation](https://teamjedi.github.io/Presentation.html) you may enjoy.
 
 
