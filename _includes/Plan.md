@@ -6,10 +6,10 @@ The goal of this is to generate an OpenSource equivalent to something like the [
 
 * $5 [PI Zero](https://www.adafruit.com/products/2885)
 
-* $8 [USB Hub PI Zero HAT](http://www.uugear.com/product/zero4u/) [Ships from Czech Republic]
-* $10 [USB Hub PI Zero HAT](http://makerspot.com/stackable-usb-hub-for-raspberry-pi-zero/) [Ships from Hong Kong]
+* $8 [USB Hub PI Zero HAT](http://www.uugear.com/product/zero4u/)  - Ships from Czech Republic
+* $10 [USB Hub PI Zero HAT](http://makerspot.com/stackable-usb-hub-for-raspberry-pi-zero/) - Ships from Hong Kong
 
-* $7 [Realtek 8188CU dongle](http://makerspot.com/raspberry-pi-usb-wifi-dongle/) [Ships from Hong Kong]
+* $7 [Realtek 8188CU dongle](http://makerspot.com/raspberry-pi-usb-wifi-dongle/) - Ships from Hong Kong
 * $12 [Realtek dongle](https://www.adafruit.com/products/814)
 
 * $12 [LiPO charger](https://www.adafruit.com/products/259)
