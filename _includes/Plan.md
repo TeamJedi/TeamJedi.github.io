@@ -5,8 +5,12 @@ The goal of this is to generate an OpenSource equivalent to something like the [
 ## Parts
 
 * $5 [PI Zero](https://www.adafruit.com/products/2885)
-* $10 [USB Hub PI Zero HAT](http://makerspot.com/stackable-usb-hub-for-raspberry-pi-zero/)
-* $7 [Realtek 8188CU dongle](http://makerspot.com/raspberry-pi-usb-wifi-dongle/)
+
+* $8 [USB Hub PI Zero HAT](http://www.uugear.com/product/zero4u/) [Ships from Czech Republic]
+* $10 [USB Hub PI Zero HAT](http://makerspot.com/stackable-usb-hub-for-raspberry-pi-zero/) [Ships from Hong Kong]
+
+* $7 [Realtek 8188CU dongle](http://makerspot.com/raspberry-pi-usb-wifi-dongle/) [Ships from Hong Kong]
+* $12 [Realtek dongle](https://www.adafruit.com/products/814)
 
 * $12 [LiPO charger](https://www.adafruit.com/products/259)
 * $20 [LiPO charger](https://www.adafruit.com/products/2465)
@@ -15,6 +19,8 @@ The goal of this is to generate an OpenSource equivalent to something like the [
 * $15 [LiPO 2500 mAh battery](https://www.adafruit.com/products/328)
 * $20 [LiPO 4400 mAh battery](https://www.adafruit.com/products/354)
 * $30 [LiPO 6000 mAh battery](https://www.adafruit.com/products/353)
+
+* $125 [YARD Stick One + ANT700](http://hackerwarehouse.com/product/yard-stick-one-and-antenna/)
 
 ## Design
 
@@ -37,7 +43,9 @@ The PI Zero will:
 * Act as a stateful VPN and media firewall
   * Gives out a DHCP address on a 192.168.1.0/24 private network through the RNDIS interface over USB.
   * Acts as a NATting firewall protecting that private segment
-  * Use zeroconf 169.254.0.0/16 RFC3927 dynamically configured IPv4 link-local address on the wlan0 interface
+  * Use zeroconf on the wlan0 interface
+    * IPv4 RFC3927 zeroconf [169.254.0.0/16] with avahi-autoipd
+    * IPv6 link-local
 * Has three USB ports for devices:
   * One required RTL-8188CU dongle for the ad-hoc 802.11 mesh
   * Two optional USB ports:
