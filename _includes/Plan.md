@@ -6,27 +6,21 @@ The goal of this is to generate an OpenSource equivalent to something like the [
 
 * $5 [PI Zero](https://www.adafruit.com/products/2885)
 
-
 * $8 [USB Hub PI Zero HAT](http://www.uugear.com/product/zero4u/)
 * $10 [USB Hub PI Zero HAT](http://makerspot.com/stackable-usb-hub-for-raspberry-pi-zero/)
-
 
 * $7 [Realtek 8188CU dongle](http://makerspot.com/raspberry-pi-usb-wifi-dongle/)
 * $12 [Realtek dongle](https://www.adafruit.com/products/814)
 
-
 * $12 [LiPO charger](https://www.adafruit.com/products/259)
 * $20 [LiPO charger](https://www.adafruit.com/products/2465)
-
 
 * $10 [LiPO 1300 mAh battery](https://www.adafruit.com/products/258)
 * $15 [LiPO 2500 mAh battery](https://www.adafruit.com/products/328)
 * $20 [LiPO 4400 mAh battery](https://www.adafruit.com/products/354)
 * $30 [LiPO 6000 mAh battery](https://www.adafruit.com/products/353)
 
-
 * $125 [YARD Stick One + ANT700](http://hackerwarehouse.com/product/yard-stick-one-and-antenna/)
-
 
 ## Design
 
