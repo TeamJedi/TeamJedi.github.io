@@ -173,3 +173,14 @@ Of these, LimeSDR looks like it will not ship in time (end of this month).
 
 I have two Nuand BladeRF devices for developing and testing SDR. One with the amplifier, one without.
 
+# Final note on Android network peering:
+
+https://android-developers.googleblog.com/2017/07/announcing-nearby-connections-20-fully.html
+
+"Nearby Connections uses WiFi, Bluetooth LE & Classic Bluetooth under the hood to discover and establish connections to nearby devices. It abstracts away the inherent complexity of these radios by leveraging the strengths of each, while circumventing their respective weaknesses. Aside from the obvious advantage of sidestepping the pain of dealing with the vagaries of these radios across different OS versions and devices, this abstraction enables seamlessly upgrading the bandwidth of a connection by switching between the radios as and when it makes sense, as well as getting invisible over-the-air updates to use new radio technology as it becomes available -- with no change whatsoever in the application code."
+
+Going forward, you may want to look into using that abstraction layer instead.
+
+
+
+
